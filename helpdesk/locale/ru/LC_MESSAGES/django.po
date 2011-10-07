@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-helpdesk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-06 22:12+0400\n"
+"POT-Creation-Date: 2011-10-07 11:51+0400\n"
 "PO-Revision-Date: 2011-09-28 03:28+0400\n"
 "Last-Translator: Anton Komolov <anton.komolov@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
@@ -1627,30 +1627,30 @@ msgid "You haven't created any tickets yet, so you cannot run any reports."
 msgstr ""
 "Вы еще не создали ни одного талона, так что вы не можете просмотреть отчеты."
 
-#: templates/helpdesk/report_index.html:13
+#: templates/helpdesk/report_index.html:14
 msgid "Reports By User"
 msgstr "Отчеты в разрезе Пользователей"
 
-#: templates/helpdesk/report_index.html:15
-#: templates/helpdesk/report_index.html:24
+#: templates/helpdesk/report_index.html:16
+#: templates/helpdesk/report_index.html:25
 msgid "by Priority"
 msgstr "по Приоритету"
 
-#: templates/helpdesk/report_index.html:16
+#: templates/helpdesk/report_index.html:17
 msgid "by Queue"
 msgstr "по Очереди"
 
-#: templates/helpdesk/report_index.html:17
-#: templates/helpdesk/report_index.html:25
+#: templates/helpdesk/report_index.html:18
+#: templates/helpdesk/report_index.html:26
 msgid "by Status"
 msgstr "по Статусу"
 
-#: templates/helpdesk/report_index.html:18
-#: templates/helpdesk/report_index.html:26
+#: templates/helpdesk/report_index.html:19
+#: templates/helpdesk/report_index.html:27
 msgid "by Month"
 msgstr "по Месяцам"
 
-#: templates/helpdesk/report_index.html:22
+#: templates/helpdesk/report_index.html:23
 msgid "Reports By Queue"
 msgstr "Отчеты в разрезе Очередей"
 
@@ -1802,7 +1802,7 @@ msgstr "Добавить другой файл"
 msgid "by"
 msgstr "от"
 
-#: templates/helpdesk/ticket.html:53
+#: templates/helpdesk/ticket.html:53 templates/helpdesk/ticket_list.html:208
 msgid "ago"
 msgstr "назад"
 

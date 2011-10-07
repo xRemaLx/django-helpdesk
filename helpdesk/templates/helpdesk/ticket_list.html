@@ -205,7 +205,7 @@ $(document).ready(function() {
 <th><a href='{{ ticket.get_absolute_url }}'>{{ ticket.title }}</a></th>
 <td>{{ ticket.queue }}</td>
 <td>{{ ticket.get_status }}</td>
-<td><span title='{{ ticket.created|date:"r" }}'>{{ ticket.created|timesince }} ago</span></td>
+<td><span title='{{ ticket.created|date:"r" }}'>{{ ticket.created|timesince }} {% trans "ago" %}</span></td>
 <td>{{ ticket.get_assigned_to }}</td>
 {% if tags_enabled %}<td>{{ ticket.tags }}</td>{% endif %}
 </tr>
